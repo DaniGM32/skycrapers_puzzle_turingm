@@ -413,10 +413,10 @@ skipFirstVisibilityFiguresCV,4,>
 skipFirstVisibilityFiguresCV,#
 skipFirstVisibilityFiguresCV,#,>
 
+//------------
+
 skipFirstVisibilityFiguresCV,:
 copyFirstDigitFirstSet,:,>
-
-//------------
 
 copyFirstDigitFirstSet,1
 copyFirstDigitOne,1,>
@@ -1879,7 +1879,7 @@ moveFourWriteOne,4
 moveFourWriteOne,4,>
 
 moveFourWriteOne,_ 
-findFirstDigitSecondSet,1,<
+findFirstDigitSecondSet,1,>
 
 //------------
 
@@ -1896,7 +1896,7 @@ moveFourWriteTwo,4
 moveFourWriteTwo,4,>
 
 moveFourWriteTwo,_ 
-findFirstDigitSecondSet,2,<
+findFirstDigitSecondSet,2,>
 
 //------------
 
@@ -1913,7 +1913,7 @@ moveFourWriteThree,4
 moveFourWriteThree,4,>
 
 moveFourWriteThree,_ 
-findFirstDigitSecondSet,3,<
+findFirstDigitSecondSet,3,>
 
 //------------
 
@@ -1930,7 +1930,7 @@ moveFourWriteFour,4
 moveFourWriteFour,4,>
 
 moveFourWriteFour,_ 
-findFirstDigitSecondSet,4,<
+findFirstDigitSecondSet,4,>
 
 //------------
 //Find first digit second set:
@@ -1946,6 +1946,9 @@ skipFirstVisibilityFiguresCVBackFDSS,3,<
 
 findFirstDigitSecondSet,4
 skipFirstVisibilityFiguresCVBackFDSS,4,<
+
+findFirstDigitSecondSet,_
+skipFirstVisibilityFiguresCVBackFDSS,a,<
 
 //------------
 
@@ -2679,6 +2682,9 @@ moveFiveWriteOne,3,>
 moveFiveWriteOne,4
 moveFiveWriteOne,4,>
 
+moveFiveWriteOne,a
+moveFiveWriteOne,a,>
+
 moveFiveWriteOne,_
 findSecondDigitSecondSet,1,<
 
@@ -2695,6 +2701,9 @@ moveFiveWriteTwo,3,>
 
 moveFiveWriteTwo,4
 moveFiveWriteTwo,4,>
+
+moveFiveWriteTwo,a
+moveFiveWriteTwo,a,>
 
 moveFiveWriteTwo,_ 
 findSecondDigitSecondSet,2,<
@@ -2713,6 +2722,9 @@ moveFiveWriteThree,3,>
 moveFiveWriteThree,4
 moveFiveWriteThree,4,>
 
+moveFiveWriteThree,a
+moveFiveWriteThree,a,>
+
 moveFiveWriteThree,_ 
 findSecondDigitSecondSet,3,<
 
@@ -2729,6 +2741,9 @@ moveFiveWriteFour,3,>
 
 moveFiveWriteFour,4
 moveFiveWriteFour,4,>
+
+moveFiveWriteFour,a
+moveFiveWriteFour,a,>
 
 moveFiveWriteFour,_ 
 findSecondDigitSecondSet,4,<
@@ -2747,6 +2762,9 @@ skipFirstVisibilityFiguresCVBackSDSS,3,<
 
 findSecondDigitSecondSet,4
 skipFirstVisibilityFiguresCVBackSDSS,4,<
+
+findSecondDigitSecondSet,a
+skipFirstVisibilityFiguresCVBackSDSS,a,<
 
 //------------
 
@@ -3300,6 +3318,9 @@ moveSixWriteOne,3,>
 moveSixWriteOne,4
 moveSixWriteOne,4,>
 
+moveSixWriteOne,a
+moveSixWriteOne,a,>
+
 moveSixWriteOne,_ 
 findThirdDigitSecondSet,1,<
 
@@ -3316,6 +3337,9 @@ moveSixWriteTwo,3,>
 
 moveSixWriteTwo,4
 moveSixWriteTwo,4,>
+
+moveSixWriteTwo,a
+moveSixWriteTwo,a,>
 
 moveSixWriteTwo,_ 
 findThirdDigitSecondSet,2,<
@@ -3334,6 +3358,9 @@ moveSixWriteThree,3,>
 moveSixWriteThree,4
 moveSixWriteThree,4,>
 
+moveSixWriteThree,a
+moveSixWriteThree,a,>
+
 moveSixWriteThree,_ 
 findThirdDigitSecondSet,3,<
 
@@ -3351,13 +3378,14 @@ moveSixWriteFour,3,>
 moveSixWriteFour,4
 moveSixWriteFour,4,>
 
+moveSixWriteFour,a
+moveSixWriteFour,a,>
+
 moveSixWriteFour,_ 
 findThirdDigitSecondSet,4,<
 
 //------------
 //Find third digit second set
-
-//------------
 
 findThirdDigitSecondSet,1
 skipFirstVisibilityFiguresCVBackTDSS,1,<
@@ -3370,6 +3398,9 @@ skipFirstVisibilityFiguresCVBackTDSS,3,<
 
 findThirdDigitSecondSet,4
 skipFirstVisibilityFiguresCVBackTDSS,4,<
+
+findThirdDigitSecondSet,a
+skipFirstVisibilityFiguresCVBackTDSS,a,<
 
 //------------
 
@@ -3393,6 +3424,9 @@ skipFirstVisibilityFiguresCVBackTDSS,_,<
 
 skipFirstVisibilityFiguresCVBackTDSS,s
 skipFirstVisibilityFiguresCVBackTDSS,s,<
+
+skipFirstVisibilityFiguresCVBackTDSS,a
+skipFirstVisibilityFiguresCVBackTDSS,a,<
 
 skipFirstVisibilityFiguresCVBackTDSS,: 
 findThirdDigitSecondSet2,:,<
@@ -3743,6 +3777,9 @@ moveSevenWriteOne,3,>
 moveSevenWriteOne,4
 moveSevenWriteOne,4,>
 
+moveSevenWriteOne,a
+moveSevenWriteOne,a,>
+
 moveSevenWriteOne,_ 
 findFourthDigitSecondSet,1,<
 
@@ -3759,6 +3796,9 @@ moveSevenWriteTwo,3,>
 
 moveSevenWriteTwo,4
 moveSevenWriteTwo,4,>
+
+moveSevenWriteTwo,a
+moveSevenWriteTwo,a,>
 
 moveSevenWriteTwo,_ 
 findFourthDigitSecondSet,2,<
@@ -3777,6 +3817,9 @@ moveSevenWriteThree,3,>
 moveSevenWriteThree,4
 moveSevenWriteThree,4,>
 
+moveSevenWriteThree,a
+moveSevenWriteThree,a,>
+
 moveSevenWriteThree,_ 
 findFourthDigitSecondSet,3,<
 
@@ -3793,6 +3836,9 @@ moveSevenWriteFour,3,>
 
 moveSevenWriteFour,4
 moveSevenWriteFour,4,>
+
+moveSevenWriteFour,a
+moveSevenWriteFour,a,>
 
 moveSevenWriteFour,_ 
 findFourthDigitSecondSet,4,<
@@ -3834,6 +3880,9 @@ skipFirstVisibilityFiguresCVBackFoDSS,_,<
 
 skipFirstVisibilityFiguresCVBackFoDSS,s
 skipFirstVisibilityFiguresCVBackFoDSS,s,<
+
+skipFirstVisibilityFiguresCVBackFoDSS,a
+skipFirstVisibilityFiguresCVBackFoDSS,a,<
 
 skipFirstVisibilityFiguresCVBackFoDSS,: 
 findFourthDigitSecondSet2,:,<
@@ -4004,8 +4053,11 @@ moveEightWriteOne,3,>
 moveEightWriteOne,4
 moveEightWriteOne,4,>
 
+moveEightWriteOne,a
+moveEightWriteOne,a,>
+
 moveEightWriteOne,_ 
-findFirstDigitThirdSet,1,<
+findFirstDigitThirdSet,1,>
 
 //------------
 
@@ -4021,8 +4073,11 @@ moveEightWriteTwo,3,>
 moveEightWriteTwo,4
 moveEightWriteTwo,4,>
 
+moveEightWriteTwo,a
+moveEightWriteTwo,a,>
+
 moveEightWriteTwo,_ 
-findFirstDigitThirdSet,2,<
+findFirstDigitThirdSet,2,>
 
 //------------
 
@@ -4038,8 +4093,11 @@ moveEightWriteThree,3,>
 moveEightWriteThree,4
 moveEightWriteThree,4,>
 
+moveEightWriteThree,a
+moveEightWriteThree,a,>
+
 moveEightWriteThree,_ 
-findFirstDigitThirdSet,3,<
+findFirstDigitThirdSet,3,>
 
 //------------
 
@@ -4055,8 +4113,11 @@ moveEightWriteFour,3,>
 moveEightWriteFour,4
 moveEightWriteFour,4,>
 
+moveEightWriteFour,a
+moveEightWriteFour,a,>
+
 moveEightWriteFour,_ 
-findFirstDigitThirdSet,4,<
+findFirstDigitThirdSet,4,>
 
 //------------
 // Find first digit third set:
@@ -4072,6 +4133,9 @@ skipFirstVisibilityFiguresCVBackFDTS,3,<
 
 findFirstDigitThirdSet,4
 skipFirstVisibilityFiguresCVBackFDTS,4,<
+
+findFirstDigitThirdSet,_
+skipFirstVisibilityFiguresCVBackFDTS,b,<
 
 //------------
 
@@ -4095,6 +4159,9 @@ skipFirstVisibilityFiguresCVBackFDTS,_,<
 
 skipFirstVisibilityFiguresCVBackFDTS,s
 skipFirstVisibilityFiguresCVBackFDTS,s,<
+
+skipFirstVisibilityFiguresCVBackFDTS,a
+skipFirstVisibilityFiguresCVBackFDTS,a,<
 
 skipFirstVisibilityFiguresCVBackFDTS,: 
 findFirstDigitThirdSet2,:,<
@@ -4785,6 +4852,12 @@ moveNineWriteOne,3,>
 moveNineWriteOne,4
 moveNineWriteOne,4,>
 
+moveNineWriteOne,a
+moveNineWriteOne,a,>
+
+moveNineWriteOne,b
+moveNineWriteOne,b,>
+
 moveNineWriteOne,_
 findSecondDigitThirdSet,1,<
 
@@ -4801,6 +4874,12 @@ moveNineWriteTwo,3,>
 
 moveNineWriteTwo,4
 moveNineWriteTwo,4,>
+
+moveNineWriteTwo,a
+moveNineWriteTwo,a,>
+
+moveNineWriteTwo,b
+moveNineWriteTwo,b,>
 
 moveNineWriteTwo,_ 
 findSecondDigitThirdSet,2,<
@@ -4819,6 +4898,12 @@ moveNineWriteThree,3,>
 moveNineWriteThree,4
 moveNineWriteThree,4,>
 
+moveNineWriteThree,a
+moveNineWriteThree,a,>
+
+moveNineWriteThree,b
+moveNineWriteThree,b,>
+
 moveNineWriteThree,_ 
 findSecondDigitThirdSet,3,<
 
@@ -4835,6 +4920,12 @@ moveNineWriteFour,3,>
 
 moveNineWriteFour,4
 moveNineWriteFour,4,>
+
+moveNineWriteFour,a
+moveNineWriteFour,a,>
+
+moveNineWriteFour,b
+moveNineWriteFour,b,>
 
 moveNineWriteFour,_ 
 findSecondDigitThirdSet,4,<
@@ -4853,6 +4944,9 @@ skipFirstVisibilityFiguresCVBackSDTS,3,<
 
 findSecondDigitThirdSet,4
 skipFirstVisibilityFiguresCVBackSDTS,4,<
+
+findSecondDigitThirdSet,b
+skipFirstVisibilityFiguresCVBackSDTS,b,<
 
 //------------
 
@@ -4876,6 +4970,9 @@ skipFirstVisibilityFiguresCVBackSDTS,_,<
 
 skipFirstVisibilityFiguresCVBackSDTS,s
 skipFirstVisibilityFiguresCVBackSDTS,s,<
+
+skipFirstVisibilityFiguresCVBackSDTS,a
+skipFirstVisibilityFiguresCVBackSDTS,a,<
 
 skipFirstVisibilityFiguresCVBackSDTS,:
 findSecondDigitThirdSet2,:,<
@@ -5386,6 +5483,12 @@ moveTenWriteOne,3,>
 moveTenWriteOne,4
 moveTenWriteOne,4,>
 
+moveTenWriteOne,a
+moveTenWriteOne,a,>
+
+moveTenWriteOne,b
+moveTenWriteOne,b,>
+
 moveTenWriteOne,_
 findThirdDigitThirdSet,1,<
 
@@ -5402,6 +5505,12 @@ moveTenWriteTwo,3,>
 
 moveTenWriteTwo,4
 moveTenWriteTwo,4,>
+
+moveTenWriteTwo,a
+moveTenWriteTwo,a,>
+
+moveTenWriteTwo,b
+moveTenWriteTwo,b,>
 
 moveTenWriteTwo,_ 
 findThirdDigitThirdSet,2,<
@@ -5420,6 +5529,12 @@ moveTenWriteThree,3,>
 moveTenWriteThree,4
 moveTenWriteThree,4,>
 
+moveTenWriteThree,a
+moveTenWriteThree,a,>
+
+moveTenWriteThree,b
+moveTenWriteThree,b,>
+
 moveTenWriteThree,_ 
 findThirdDigitThirdSet,3,<
 
@@ -5436,6 +5551,12 @@ moveTenWriteFour,3,>
 
 moveTenWriteFour,4
 moveTenWriteFour,4,>
+
+moveTenWriteFour,a
+moveTenWriteFour,a,>
+
+moveTenWriteFour,b
+moveTenWriteFour,b,>
 
 moveTenWriteFour,_ 
 findThirdDigitThirdSet,4,<
@@ -5477,6 +5598,12 @@ skipFirstVisibilityFiguresCVBackTDTS,_,<
 
 skipFirstVisibilityFiguresCVBackTDTS,s
 skipFirstVisibilityFiguresCVBackTDTS,s,<
+
+skipFirstVisibilityFiguresCVBackTDTS,a
+skipFirstVisibilityFiguresCVBackTDTS,a,<
+
+skipFirstVisibilityFiguresCVBackTDTS,b
+skipFirstVisibilityFiguresCVBackTDTS,b,<
 
 skipFirstVisibilityFiguresCVBackTDTS,:
 findThirdDigitThirdSet2,:,<
@@ -5807,6 +5934,12 @@ moveElevenWriteOne,3,>
 moveElevenWriteOne,4
 moveElevenWriteOne,4,>
 
+moveElevenWriteOne,a
+moveElevenWriteOne,a,>
+
+moveElevenWriteOne,b
+moveElevenWriteOne,b,>
+
 moveElevenWriteOne,_ 
 findFourthDigitThirdSet,1,<
 
@@ -5823,6 +5956,12 @@ moveElevenWriteTwo,3,>
 
 moveElevenWriteTwo,4
 moveElevenWriteTwo,4,>
+
+moveElevenWriteTwo,a
+moveElevenWriteTwo,a,>
+
+moveElevenWriteTwo,b
+moveElevenWriteTwo,b,>
 
 moveElevenWriteTwo,_ 
 findFourthDigitThirdSet,2,<
@@ -5841,6 +5980,12 @@ moveElevenWriteThree,3,>
 moveElevenWriteThree,4
 moveElevenWriteThree,4,>
 
+moveElevenWriteThree,a
+moveElevenWriteThree,a,>
+
+moveElevenWriteThree,b
+moveElevenWriteThree,b,>
+
 moveElevenWriteThree,_ 
 findFourthDigitThirdSet,3,<
 
@@ -5857,6 +6002,12 @@ moveElevenWriteFour,3,>
 
 moveElevenWriteFour,4
 moveElevenWriteFour,4,>
+
+moveElevenWriteFour,a
+moveElevenWriteFour,a,>
+
+moveElevenWriteFour,b
+moveElevenWriteFour,b,>
 
 moveElevenWriteFour,_ 
 findFourthDigitThirdSet,4,< 
@@ -5898,6 +6049,12 @@ skipFirstVisibilityFiguresCVBackFoDTS,_,<
 
 skipFirstVisibilityFiguresCVBackFoDTS,s
 skipFirstVisibilityFiguresCVBackFoDTS,s,<
+
+skipFirstVisibilityFiguresCVBackFoDTS,a
+skipFirstVisibilityFiguresCVBackFoDTS,a,<
+
+skipFirstVisibilityFiguresCVBackFoDTS,b
+skipFirstVisibilityFiguresCVBackFoDTS,b,<
 
 skipFirstVisibilityFiguresCVBackFoDTS,: 
 findFourthDigitThirdSet2,:,<
@@ -6048,8 +6205,14 @@ moveTwelveWriteOne,3,>
 moveTwelveWriteOne,4
 moveTwelveWriteOne,4,>
 
+moveTwelveWriteOne,a
+moveTwelveWriteOne,a,>
+
+moveTwelveWriteOne,b
+moveTwelveWriteOne,b,>
+
 moveTwelveWriteOne,_ 
-findFirstDigitFourthSet,1,<
+findFirstDigitFourthSet,1,>
 
 //------------
 
@@ -6065,8 +6228,14 @@ moveTwelveWriteTwo,3,>
 moveTwelveWriteTwo,4
 moveTwelveWriteTwo,4,>
 
+moveTwelveWriteTwo,a
+moveTwelveWriteTwo,a,>
+
+moveTwelveWriteTwo,b
+moveTwelveWriteTwo,b,>
+
 moveTwelveWriteTwo,_ 
-findFirstDigitFourthSet,2,<
+findFirstDigitFourthSet,2,>
 
 //------------
 
@@ -6082,8 +6251,14 @@ moveTwelveWriteThree,3,>
 moveTwelveWriteThree,4
 moveTwelveWriteThree,4,>
 
+moveTwelveWriteThree,a
+moveTwelveWriteThree,a,>
+
+moveTwelveWriteThree,b
+moveTwelveWriteThree,b,>
+
 moveTwelveWriteThree,_ 
-findFirstDigitFourthSet,3,<
+findFirstDigitFourthSet,3,>
 
 //------------
 
@@ -6099,8 +6274,14 @@ moveTwelveWriteFour,3,>
 moveTwelveWriteFour,4
 moveTwelveWriteFour,4,>
 
+moveTwelveWriteFour,a
+moveTwelveWriteFour,a,>
+
+moveTwelveWriteFour,b
+moveTwelveWriteFour,b,>
+
 moveTwelveWriteFour,_ 
-findFirstDigitFourthSet,4,<
+findFirstDigitFourthSet,4,>
 
 //------------
 // Find first digit fourth set:
@@ -6116,6 +6297,9 @@ skipFirstVisibilityFiguresCVBackFDFoS,3,<
 
 findFirstDigitFourthSet,4
 skipFirstVisibilityFiguresCVBackFDFoS,4,<
+
+findFirstDigitFourthSet,_
+skipFirstVisibilityFiguresCVBackFDFoS,c,<
 
 //------------
 
@@ -6139,6 +6323,15 @@ skipFirstVisibilityFiguresCVBackFDFoS,_,<
 
 skipFirstVisibilityFiguresCVBackFDFoS,s
 skipFirstVisibilityFiguresCVBackFDFoS,s,<
+
+skipFirstVisibilityFiguresCVBackFDFoS,a
+skipFirstVisibilityFiguresCVBackFDFoS,a,<
+
+skipFirstVisibilityFiguresCVBackFDFoS,b
+skipFirstVisibilityFiguresCVBackFDFoS,b,<
+
+skipFirstVisibilityFiguresCVBackFDFoS,c
+skipFirstVisibilityFiguresCVBackFDFoS,c,<
 
 skipFirstVisibilityFiguresCVBackFDFoS,: 
 findFirstDigitFourthSet2,:,<
@@ -6809,6 +7002,15 @@ moveThirteenWriteOne,3,>
 moveThirteenWriteOne,4
 moveThirteenWriteOne,4,>
 
+moveThirteenWriteOne,a
+moveThirteenWriteOne,a,>
+
+moveThirteenWriteOne,b
+moveThirteenWriteOne,b,>
+
+moveThirteenWriteOne,c
+moveThirteenWriteOne,c,>
+
 moveThirteenWriteOne,_ 
 findSecondDigitFourthSet,1,<
 
@@ -6825,6 +7027,15 @@ moveThirteenWriteTwo,3,>
 
 moveThirteenWriteTwo,4
 moveThirteenWriteTwo,4,>
+
+moveThirteenWriteTwo,a
+moveThirteenWriteTwo,a,>
+
+moveThirteenWriteTwo,b
+moveThirteenWriteTwo,b,>
+
+moveThirteenWriteTwo,c
+moveThirteenWriteTwo,c,>
 
 moveThirteenWriteTwo,_ 
 findSecondDigitFourthSet,2,<
@@ -6843,6 +7054,15 @@ moveThirteenWriteThree,3,>
 moveThirteenWriteThree,4
 moveThirteenWriteThree,4,>
 
+moveThirteenWriteThree,a
+moveThirteenWriteThree,a,>
+
+moveThirteenWriteThree,b
+moveThirteenWriteThree,b,>
+
+moveThirteenWriteThree,c
+moveThirteenWriteThree,c,>
+
 moveThirteenWriteThree,_ 
 findSecondDigitFourthSet,3,<
 
@@ -6859,6 +7079,15 @@ moveThirteenWriteFour,3,>
 
 moveThirteenWriteFour,4
 moveThirteenWriteFour,4,>
+
+moveThirteenWriteFour,a
+moveThirteenWriteFour,a,>
+
+moveThirteenWriteFour,b
+moveThirteenWriteFour,b,>
+
+moveThirteenWriteFour,c
+moveThirteenWriteFour,c,>
 
 moveThirteenWriteFour,_ 
 findSecondDigitFourthSet,4,<
@@ -6877,6 +7106,9 @@ skipFirstVisibilityFiguresCVBackSDFoS,3,<
 
 findSecondDigitFourthSet,4
 skipFirstVisibilityFiguresCVBackSDFoS,4,<
+
+findSecondDigitFourthSet,c
+skipFirstVisibilityFiguresCVBackSDFoS,c,<
 
 //------------
 
@@ -6900,6 +7132,12 @@ skipFirstVisibilityFiguresCVBackSDFoS,_,<
 
 skipFirstVisibilityFiguresCVBackSDFoS,s
 skipFirstVisibilityFiguresCVBackSDFoS,s,<
+
+skipFirstVisibilityFiguresCVBackSDFoS,a
+skipFirstVisibilityFiguresCVBackSDFoS,a,<
+
+skipFirstVisibilityFiguresCVBackSDFoS,b
+skipFirstVisibilityFiguresCVBackSDFoS,b,<
 
 skipFirstVisibilityFiguresCVBackSDFoS,: 
 findSecondDigitFourthSet2,:,<
@@ -7390,6 +7628,15 @@ moveFourteenWriteOne,3,>
 moveFourteenWriteOne,4
 moveFourteenWriteOne,4,>
 
+moveFourteenWriteOne,a
+moveFourteenWriteOne,a,>
+
+moveFourteenWriteOne,b
+moveFourteenWriteOne,b,>
+
+moveFourteenWriteOne,c
+moveFourteenWriteOne,c,>
+
 moveFourteenWriteOne,_ 
 findThirdDigitFourthSet,1,<
 
@@ -7406,6 +7653,15 @@ moveFourteenWriteTwo,3,>
 
 moveFourteenWriteTwo,4
 moveFourteenWriteTwo,4,>
+
+moveFourteenWriteTwo,a
+moveFourteenWriteTwo,a,>
+
+moveFourteenWriteTwo,b
+moveFourteenWriteTwo,b,>
+
+moveFourteenWriteTwo,c
+moveFourteenWriteTwo,c,>
 
 moveFourteenWriteTwo,_ 
 findThirdDigitFourthSet,2,<
@@ -7424,6 +7680,15 @@ moveFourteenWriteThree,3,>
 moveFourteenWriteThree,4
 moveFourteenWriteThree,4,>
 
+moveFourteenWriteThree,a
+moveFourteenWriteThree,a,>
+
+moveFourteenWriteThree,b
+moveFourteenWriteThree,b,>
+
+moveFourteenWriteThree,c
+moveFourteenWriteThree,c,>
+
 moveFourteenWriteThree,_ 
 findThirdDigitFourthSet,3,<
 
@@ -7440,6 +7705,15 @@ moveFourteenWriteFour,3,>
 
 moveFourteenWriteFour,4
 moveFourteenWriteFour,4,>
+
+moveFourteenWriteFour,a
+moveFourteenWriteFour,a,>
+
+moveFourteenWriteFour,b
+moveFourteenWriteFour,b,>
+
+moveFourteenWriteFour,c
+moveFourteenWriteFour,c,>
 
 moveFourteenWriteFour,_ 
 findThirdDigitFourthSet,4,<
@@ -7481,6 +7755,15 @@ skipFirstVisibilityFiguresCVBackTDFoS,_,<
 
 skipFirstVisibilityFiguresCVBackTDFoS,s
 skipFirstVisibilityFiguresCVBackTDFoS,s,<
+
+skipFirstVisibilityFiguresCVBackTDFoS,a 
+skipFirstVisibilityFiguresCVBackTDFoS,a,<
+
+skipFirstVisibilityFiguresCVBackTDFoS,b
+skipFirstVisibilityFiguresCVBackTDFoS,b,<
+
+skipFirstVisibilityFiguresCVBackTDFoS,c
+skipFirstVisibilityFiguresCVBackTDFoS,c,<
 
 skipFirstVisibilityFiguresCVBackTDFoS,: 
 findThirdDigitFourthSet2,:,<
@@ -7791,6 +8074,15 @@ moveFifteenWriteOne,3,>
 moveFifteenWriteOne,4
 moveFifteenWriteOne,4,>
 
+moveFifteenWriteOne,a
+moveFifteenWriteOne,a,>
+
+moveFifteenWriteOne,b
+moveFifteenWriteOne,b,>
+
+moveFifteenWriteOne,c
+moveFifteenWriteOne,c,>
+
 moveFifteenWriteOne,_
 findFourthDigitFourthSet,1,<
 
@@ -7807,6 +8099,15 @@ moveFifteenWriteTwo,3,>
 
 moveFifteenWriteTwo,4
 moveFifteenWriteTwo,4,>
+
+moveFifteenWriteTwo,a
+moveFifteenWriteTwo,a,>
+
+moveFifteenWriteTwo,b
+moveFifteenWriteTwo,b,>
+
+moveFifteenWriteTwo,c
+moveFifteenWriteTwo,c,>
 
 moveFifteenWriteTwo,_
 findFourthDigitFourthSet,2,<
@@ -7825,6 +8126,15 @@ moveFifteenWriteThree,3,>
 moveFifteenWriteThree,4
 moveFifteenWriteThree,4,>
 
+moveFifteenWriteThree,a
+moveFifteenWriteThree,a,>
+
+moveFifteenWriteThree,b
+moveFifteenWriteThree,b,>
+
+moveFifteenWriteThree,c
+moveFifteenWriteThree,c,>
+
 moveFifteenWriteThree,_
 findFourthDigitFourthSet,3,<
 
@@ -7841,6 +8151,15 @@ moveFifteenWriteFour,3,>
 
 moveFifteenWriteFour,4
 moveFifteenWriteFour,4,>
+
+moveFifteenWriteFour,a
+moveFifteenWriteFour,a,>
+
+moveFifteenWriteFour,b
+moveFifteenWriteFour,b,>
+
+moveFifteenWriteFour,c
+moveFifteenWriteFour,c,>
 
 moveFifteenWriteFour,_
 findFourthDigitFourthSet,4,<
@@ -7883,6 +8202,15 @@ skipFirstVisibilityFiguresCVBackFoDFoS,_,<
 skipFirstVisibilityFiguresCVBackFoDFoS,s
 skipFirstVisibilityFiguresCVBackFoDFoS,s,<
 
+skipFirstVisibilityFiguresCVBackFoDFoS,a 
+skipFirstVisibilityFiguresCVBackFoDFoS,a,<
+
+skipFirstVisibilityFiguresCVBackFoDFoS,b 
+skipFirstVisibilityFiguresCVBackFoDFoS,b,<
+
+skipFirstVisibilityFiguresCVBackFoDFoS,c
+skipFirstVisibilityFiguresCVBackFoDFoS,c,<
+
 skipFirstVisibilityFiguresCVBackFoDFoS,: 
 findFourthDigitFourthSet2,:,<
 
@@ -7899,8 +8227,6 @@ copySixteenthDigitThree,3,>
 
 findFourthDigitFourthSet2,4
 copySixteenthDigitFour,4,>
-
-//------------
 
 //------------
 
@@ -8020,8 +8346,17 @@ moveSixteenWriteOne,3,>
 moveSixteenWriteOne,4
 moveSixteenWriteOne,4,>
 
-moveSixteenWriteOne,_ 
-transitionAfterInvertingColumns,1,<
+moveSixteenWriteOne,a
+moveSixteenWriteOne,a,>
+
+moveSixteenWriteOne,b
+moveSixteenWriteOne,b,>
+
+moveSixteenWriteOne,c
+moveSixteenWriteOne,c,>
+
+moveSixteenWriteOne,_
+writeInvertingColumnsEnd,1,>
 
 //------------
 
@@ -8037,8 +8372,17 @@ moveSixteenWriteTwo,3,>
 moveSixteenWriteTwo,4
 moveSixteenWriteTwo,4,>
 
+moveSixteenWriteTwo,a
+moveSixteenWriteTwo,a,>
+
+moveSixteenWriteTwo,b
+moveSixteenWriteTwo,b,>
+
+moveSixteenWriteTwo,c
+moveSixteenWriteTwo,c,>
+
 moveSixteenWriteTwo,_ 
-transitionAfterInvertingColumns,2,<
+writeInvertingColumnsEnd,2,>
 
 //------------
 
@@ -8054,8 +8398,17 @@ moveSixteenWriteThree,3,>
 moveSixteenWriteThree,4
 moveSixteenWriteThree,4,>
 
+moveSixteenWriteThree,a
+moveSixteenWriteThree,a,>
+
+moveSixteenWriteThree,b
+moveSixteenWriteThree,b,>
+
+moveSixteenWriteThree,c
+moveSixteenWriteThree,c,>
+
 moveSixteenWriteThree,_ 
-transitionAfterInvertingColumns,3,<
+writeInvertingColumnsEnd,3,>
 
 //------------
 
@@ -8071,8 +8424,22 @@ moveSixteenWriteFour,3,>
 moveSixteenWriteFour,4
 moveSixteenWriteFour,4,>
 
+moveSixteenWriteFour,a
+moveSixteenWriteFour,a,>
+
+moveSixteenWriteFour,b
+moveSixteenWriteFour,b,>
+
+moveSixteenWriteFour,c
+moveSixteenWriteFour,c,>
+
 moveSixteenWriteFour,_ 
-transitionAfterInvertingColumns,4,<
+writeInvertingColumnsEnd,4,>
+
+//------------
+
+writeInvertingColumnsEnd,_
+transitionAfterInvertingColumns,d,<
 
 //------------
 
@@ -8087,6 +8454,15 @@ transitionAfterInvertingColumns,3,<
 
 transitionAfterInvertingColumns,4
 transitionAfterInvertingColumns,4,<
+
+transitionAfterInvertingColumns,a
+transitionAfterInvertingColumns,a,<
+
+transitionAfterInvertingColumns,b
+transitionAfterInvertingColumns,b,<
+
+transitionAfterInvertingColumns,c
+transitionAfterInvertingColumns,c,<
 
 transitionAfterInvertingColumns,s
 startColumnsVerification,s,>
@@ -8105,8 +8481,17 @@ lookForOneTwoFourCV,3,>
 startColumnsVerification,4
 lookForOneTwoThreeCV,4,>
 
-startColumnsVerification,_
-columnsVerificationAccepted,_,<
+startColumnsVerification,a
+startColumnsVerification,a,>
+
+startColumnsVerification,b
+startColumnsVerification,b,>
+
+startColumnsVerification,c
+startColumnsVerification,c,>
+
+startColumnsVerification,d
+columnsVerificationAccepted,d,<
 
 //------------
 
@@ -8318,6 +8703,8 @@ N,3,>
 lookForFourCV,4
 startColumnsVerification,4,>
 
+//------------
+
 columnsVerificationAccepted,1
 columnsVerificationAccepted,1,<
 
@@ -8338,6 +8725,18 @@ columnsVerificationAccepted,#,<
 
 columnsVerificationAccepted,s
 columnsVerificationAccepted,s,<
+
+columnsVerificationAccepted,a
+columnsVerificationAccepted,a,<
+
+columnsVerificationAccepted,b
+columnsVerificationAccepted,b,<
+
+columnsVerificationAccepted,c
+columnsVerificationAccepted,c,<
+
+columnsVerificationAccepted,d
+columnsVerificationAccepted,d,<
 
 columnsVerificationAccepted,_
 prepareForLineVisibility,_,<
@@ -8853,3 +9252,193 @@ startColumnVisibilityVerification,4,-
 
 //------------
 // Now starts the column visibility verification
+
+startColumnVisibilityVerification,1
+verifyOneTopBottomFirstSet,1,>
+
+startColumnVisibilityVerification,2
+verifyTwoTopBottomFirstSet,2,>
+
+startColumnVisibilityVerification,3
+verifyThreeTopBottomFirstSet,3,>
+
+startColumnVisibilityVerification,4
+verifyFourTopBottomFirstSet,4,>
+
+//------------
+
+verifyOneTopBottomFirstSet,1
+verifyOneTopBottomFirstSet,1,>
+
+verifyOneTopBottomFirstSet,2
+verifyOneTopBottomFirstSet,2,>
+
+verifyOneTopBottomFirstSet,3
+verifyOneTopBottomFirstSet,3,>
+
+verifyOneTopBottomFirstSet,4
+verifyOneTopBottomFirstSet,4,>
+
+verifyOneTopBottomFirstSet,:
+verifyOneTopBottomFirstSet,:,>
+
+verifyOneTopBottomFirstSet,#
+verifyOneTopBottomFirstSet,#,>
+
+verifyOneTopBottomFirstSet,_
+verifyOneTopBottomFirstSet,_,>
+
+verifyOneTopBottomFirstSet,s
+lookForFourTopBottom,s,>
+
+//------------
+
+lookForFourTopBottom,1
+N,1,>
+
+lookForFourTopBottom,2
+N,2,>
+
+lookForFourTopBottom,3
+N,3,>
+
+lookForFourTopBottom,4
+findSecondVisibilityDigit,4,<
+
+//------------
+
+verifyTwoTopBottomFirstSet,1
+verifyTwoTopBottomFirstSet,1,>
+
+verifyTwoTopBottomFirstSet,2
+verifyTwoTopBottomFirstSet,2,>
+
+verifyTwoTopBottomFirstSet,3
+verifyTwoTopBottomFirstSet,3,>
+
+verifyTwoTopBottomFirstSet,4
+verifyTwoTopBottomFirstSet,4,>
+
+verifyTwoTopBottomFirstSet,:
+verifyTwoTopBottomFirstSet,:,>
+
+verifyTwoTopBottomFirstSet,#
+verifyTwoTopBottomFirstSet,#,>
+
+verifyTwoTopBottomFirstSet,_
+verifyTwoTopBottomFirstSet,_,>
+
+verifyTwoTopBottomFirstSet,s
+startTwoTopBottomFirstSet,s,>
+
+//------------
+
+startTwoTopBottomFirstSet,1
+lookForFourNextStepTBFirstSet,1,>
+
+startTwoTopBottomFirstSet,2
+lookForFourNextStepTBFirstSet,2,>
+
+startTwoTopBottomFirstSet,3
+lookForFourNextThreeStepsTBFirstSet1,3,>
+
+startTwoTopBottomFirstSet,4
+N,2,>
+
+//------------
+
+lookForFourNextStepTBFirstSet,1
+N,1,>
+
+lookForFourNextStepTBFirstSet,2
+N,2,>
+
+lookForFourNextStepTBFirstSet,3
+N,3,>
+
+lookForFourNextStepTBFirstSet,4
+findSecondVisibilityDigit,4,<
+
+//------------
+
+lookForFourNextThreeStepsTBFirstSet1,1
+lookForFourNextThreeStepsTBFirstSet2,1,>
+
+lookForFourNextThreeStepsTBFirstSet1,2
+lookForFourNextThreeStepsTBFirstSet2,2,>
+
+lookForFourNextThreeStepsTBFirstSet1,3
+lookForFourNextThreeStepsTBFirstSet2,3,>
+
+lookForFourNextThreeStepsTBFirstSet1,4
+findSecondVisibilityDigit,4,<
+
+//------------
+
+lookForFourNextThreeStepsTBFirstSet2,1
+lookForFourNextThreeStepsTBFirstSet3,1,>
+
+lookForFourNextThreeStepsTBFirstSet2,2
+lookForFourNextThreeStepsTBFirstSet3,2,>
+
+lookForFourNextThreeStepsTBFirstSet2,4
+findSecondVisibilityDigit,4,<
+
+//------------
+
+lookForFourNextThreeStepsTBFirstSet3,1
+N,1,>
+
+lookForFourNextThreeStepsTBFirstSet3,2
+N,1,>
+
+lookForFourNextThreeStepsTBFirstSet3,4
+findSecondVisibilityDigit,4,<
+
+//------------
+
+verifyThreeTopBottomFirstSet,1
+verifyThreeTopBottomFirstSet,1,>
+
+verifyThreeTopBottomFirstSet,2
+verifyThreeTopBottomFirstSet,2,>
+
+verifyThreeTopBottomFirstSet,3
+verifyThreeTopBottomFirstSet,3,>
+
+verifyThreeTopBottomFirstSet,4
+verifyThreeTopBottomFirstSet,4,>
+
+verifyThreeTopBottomFirstSet,:
+verifyThreeTopBottomFirstSet,:,>
+
+verifyThreeTopBottomFirstSet,#
+verifyThreeTopBottomFirstSet,#,>
+
+verifyThreeTopBottomFirstSet,_
+verifyThreeTopBottomFirstSet,_,>
+
+//------------
+
+verifyFourTopBottomFirstSet,1
+verifyFourTopBottomFirstSet,1,>
+
+verifyFourTopBottomFirstSet,2
+verifyFourTopBottomFirstSet,2,>
+
+verifyFourTopBottomFirstSet,3
+verifyFourTopBottomFirstSet,3,>
+
+verifyFourTopBottomFirstSet,4
+verifyFourTopBottomFirstSet,4,>
+
+verifyFourTopBottomFirstSet,:
+verifyFourTopBottomFirstSet,:,>
+
+verifyFourTopBottomFirstSet,#
+verifyFourTopBottomFirstSet,#,>
+
+verifyFourTopBottomFirstSet,_
+verifyFourTopBottomFirstSet,_,>
+
+

@@ -90,6 +90,7 @@ am cifre diferite de la 1 la 4, deci am inceput sa scriu la fisierul skyscrapers
 Am ajuns la concluzia ca am urmatoarele situatii posibile:
 
 ```
+2    2143 
 2    24** 
 2    34**
 2    14**
@@ -105,6 +106,7 @@ Am ajuns la concluzia ca am urmatoarele situatii posibile:
 3    1243
 ```
 ```
+3412    2
 **43	2
 **42	2
 **41	2
@@ -122,3 +124,30 @@ Am ajuns la concluzia ca am urmatoarele situatii posibile:
 
 Inca un lucru pe care l am facut a fost mai intai sa verific toate vizibilitatile de la stanga la dreapta si apoi, 
 "la intoarcere", sa le verific pe toate de la dreapta la stanga, de aici vin tipurile de stari LeftToRight si RightToLeft 
+
+1) In functie de numarul pe care trebuie sa l verific am 4 stari: 
+*verifyOneLeftToRight, verifyTwoLeftToRight, verifyThreeLeftToRight, verifyFourLeftToRight*
+
+2) Fiecare stare are la randul ei alte stari pe care se duce in functie de cazurile de mai sus, spre exemplu:
+din starea *verifyTwoLeftToRight* pe inputul 1, 2 sau 3, trebuie sa verific ca cifra 4 se afla ori pe urmatoarea pozitie,
+cum e la 1, ori pe o pozitie care sa nu mi influenteze vizibilitatea, ex pot avea 2143.
+
+3) Dupa ce verific o linie trec la urmatoarea cifra de vizibilitate, fie ea de la stanga la dreapta sau de la dreapta la stanga
+
+
+## Skyscrapers_final
+
+Ajuns in punctul asta, problema e cam rezolvata de la sine, deoarece:
+* Am facut verificarea pe linii si coloane deci am garantia ca am cifre diferite
+* Avand aceasta garantie am simplificat mult verificarea vizibilitatii pe linii
+* Pot aplica exact acelasi algoritm de la vizibilitatea pe linii la vizibilitatea pe coloane deoarece am transpus matricea
+
+1) La verificarea vizibilitatii pe coloane, ideea este fix aceeasi ca la linii, singurul lucru care difera este modul in care
+am luat si "salvat" cifrele de vizibilitate: *findFirstVisibilityDigit, findSecondVisibilityDigit .. findEightVisibilityDigit*
+
+2) De mentionat ca primele 4 cifre de vizibilitate corespund starilor ce contin TopBottom in nume, iar cele 4 de la sfarsit
+corespund starilor ce contin BottomTop in nume
+
+3) Dupa ce retin fiecare cifra ma deplasez in dreapta la linia corespunzatoare (care de fapt e coloana) si incep sa verific
+in exact acelasi mod ca la vizibilitatea pe linii, logica este aceeasi, doar am 8 seturi de stari pentru fiecare cifra de
+vizibilitate pe coloane

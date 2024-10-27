@@ -100,13 +100,21 @@ N,4,>
 //------------
 
 verifyNextDigitsTwoFour,2
-N,2,>
+verifyNextDigitFourLTR,2,>
 
 verifyNextDigitsTwoFour,3
 findNextDigitLeftToRight,3,>
 
 verifyNextDigitsTwoFour,4
 N,4,>
+
+//------------
+
+verifyNextDigitFourLTR,3
+N,3,>
+
+verifyNextDigitFourLTR,4
+findNextDigitLeftToRight,4,>
 
 //------------
 
@@ -326,13 +334,21 @@ verifyNextDigitsFourThree,1
 verifyNextDigitsFourThree,1,<
 
 verifyNextDigitsFourThree,2
-N,2,<
+verifyNextDigitFourRTL,2,<
 
 verifyNextDigitsFourThree,3
 findNextDigitRightToLeft,3,<
 
 verifyNextDigitsFourThree,4
 N,4,<
+
+//------------
+
+verifyNextDigitFourRTL,3
+N,3,<
+
+verifyNextDigitFourRTL,4
+findNextDigitRightToLeft,4,<
 
 //------------
 

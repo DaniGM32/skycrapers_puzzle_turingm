@@ -20,6 +20,4 @@ def generate_output():
 
         print("//------------\n")
 
-
-if __name__ == "__main__":
-    generate_output()
+generate_output()
